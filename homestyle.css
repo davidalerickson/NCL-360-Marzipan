@@ -10,7 +10,13 @@
 }
 .grid > article {
   border: 1px solid #ccc;
+  border-radius: 0.5rem;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+}
+.grid > article:hover {
+  box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 .grid > article img {
   max-width: 100%;
